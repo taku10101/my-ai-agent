@@ -21,6 +21,7 @@
     "@mastra/core": "^0.10.3",
     "@mastra/libsql": "^0.10.1",
     "@mastra/loggers": "^0.10.1",
+    "@mastra/mcp": "^0.10.2",
     "@mastra/memory": "^0.10.2",
     "zod": "^3.25.55"
   },
@@ -28,5 +29,6 @@
     "@types/node": "^22.15.30",
     "mastra": "^0.10.3",
     "typescript": "^5.8.3"
-  }
+  },
+  "packageManager": "pnpm@10.6.5+sha512.cdf928fca20832cd59ec53826492b7dc25dc524d4370b6b4adbf65803d32efaa6c1c88147c0ae4e8d579a6c9eec715757b50d4fa35eea179d868eada4ed043af"
 }
