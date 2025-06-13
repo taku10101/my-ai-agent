@@ -10,7 +10,7 @@ export const peopleAgent = new Agent({
 
   memory: new Memory({
     storage: new LibSQLStore({
-      url: 'file:../mastra.db',
+      url: 'file:./mastra.db',
     }),
   }),
 });
