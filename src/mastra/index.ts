@@ -2,10 +2,10 @@
 import { Mastra } from '@mastra/core/mastra';
 import { PinoLogger } from '@mastra/loggers';
 import { LibSQLStore } from '@mastra/libsql';
-import { peopleAgent } from './agents/peopleAgent.js';
+import { assistantAgent } from './agents/assistantAgent.js';
 
 export const mastra = new Mastra({
-  agents: { peopleAgent },
+  agents: { assistantAgent },
   storage: new LibSQLStore({
     url: 'file:./mastra.db',
   }),

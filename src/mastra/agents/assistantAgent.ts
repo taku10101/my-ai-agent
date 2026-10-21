@@ -8,11 +8,11 @@ import { LibSQLStore } from '@mastra/libsql';
 
 const instructionsPath = join(
   dirname(fileURLToPath(import.meta.url)),
-  'people.instructions.md',
+  'assistant.instructions.md',
 );
 
-export const peopleAgent = new Agent({
-  name: 'People Assistant',
+export const assistantAgent = new Agent({
+  name: 'Assistant',
   model: google('gemini-2.0-flash-exp'),
   instructions: readFileSync(instructionsPath, 'utf-8'),
 
