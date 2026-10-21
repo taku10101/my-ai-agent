@@ -1,5 +1,6 @@
 output.txt
 node_modules
+.DS_Store
 dist
 .mastra
 .env.development
